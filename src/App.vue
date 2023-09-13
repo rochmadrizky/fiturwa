@@ -10,49 +10,13 @@ import IsiKiri from "./components/IsiKiri.vue";
     <div class="bg-slate-200 shadow-lg rounded-lg h-full w-96">
       <ProfileWa />
 
-      <IsiKiri />
-      <div class="p-4 flex justify-end">
-        <div class="w-[120px] px-2 rounded-xl bg-white gap-4 flex items-center">
-          <span class="text-sm"> Oh ok:) </span>
-          <span class="text-[10px]">13:39</span>
-        </div>
-      </div>
-      <div class="p-4 flex justify-start">
-        <div class="w-[165px] px-2 rounded-xl bg-white gap-4 flex items-center">
-          <span class="text-sm"> Kita temenan aja ya... </span>
-          <span class="text-[10px]">13:40</span>
-        </div>
-      </div>
-      <div class="p-4 flex justify-end">
-        <div class="w-[120px] px-2 rounded-xl bg-white gap-4 flex items-center">
-          <span class="text-sm"> Gitu ya okei lah:) </span>
-          <span class="text-[10px]">13:41</span>
-        </div>
-      </div>
-      <div class="p-4 flex justify-start">
-        <div class="w-[165px] px-2 rounded-xl bg-white gap-4 flex items-center">
-          <span class="text-sm"> Lagian aku udah anggep kamu, </span>
-          <span class="text-[10px]">13:42</span>
-        </div>
-      </div>
-      <div class="p-4 flex justify-start">
-        <div class="w-[165px] px-2 rounded-xl bg-white gap-4 flex items-center">
-          <span class="text-sm"> Seperti kakaku sendiri. </span>
-          <span class="text-[10px]">13:42</span>
-        </div>
-      </div>
-      <div class="p-4 flex justify-end">
-        <div class="w-[70px] px-2 rounded-xl bg-white gap-4 flex items-center">
-          <span class="text-sm"> :) </span>
-          <span class="text-[10px]">13:43</span>
-        </div>
-      </div>
-      <div class="p-4 flex justify-start">
-        <div class="w-[120px] px-2 rounded-xl bg-white gap-4 flex items-center">
-          <span class="text-sm"> Maaf ya. </span>
-          <span class="text-[10px]">13:45</span>
-        </div>
-      </div>
+      <IsiKiri type="kiri">Kamu Terlalu baik</IsiKiri>
+      <IsiKiri type="kanan">Kita temenan aja</IsiKiri>
+      <IsiKiri type="kiri">Okay</IsiKiri>
+      <IsiKiri type="kanan">Maaf Yah</IsiKiri>
+      <IsiKiri type="kiri">Gapapa</IsiKiri>
+      <IsiKiri type="kanan">Sip</IsiKiri>
+      <IsiKiri type="kanan">See you</IsiKiri>
 
       <div class="flex items-center p-2">
         <input
